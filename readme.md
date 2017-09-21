@@ -31,6 +31,10 @@ Call number ranges are described in map.json by objects like:
 
 `letters` is case insensitive and can be any length. To capture all numbers for a subclass, specify the letters and then 0 for `min` and use the string "Infinity" for `max`. To capture an entire class, use a single letter and set `whole_class` to `true` (it can be omitted otherwise).
 
+## Development
+
+There are [Nodeunit](https://github.com/caolan/nodeunit) tests that run with `npm test`. There's an included utility `node not_lc_nums` which prints out call numbers that don't look like Library of Congress ones; it was helpful when building up the list of our local exceptions. These call numbers will be lumped into "Humanities & Social Sciences" if they're not enumerated in the `is_special` function.
+
 # LICENSE
 
 [ECL Version 2.0](https://opensource.org/licenses/ECL-2.0)
