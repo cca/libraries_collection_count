@@ -1,9 +1,11 @@
 {
-    "Architecture": [ {
-        "letters": "NA",
-        "min": 0,
-        "max": "Infinity"
-    } ],
+    "Architecture": [
+        { "letters": "HT", "min": 0, "max": "Infinity" },
+        { "letters": "NA", "min": 0, "max": "Infinity" },
+        { "letters": "TA", "min": 0, "max": "Infinity" },
+        { "letters": "TH", "min": 0, "max": "Infinity" },
+        { "letters": "VM", "min": 0, "max": "Infinity" }
+    ],
     "Fashion": [ {
         "letters": "TT",
         "min":490,
@@ -67,13 +69,12 @@
     } ],
     "Decorative Arts, all craft disciplines": [ {
         "letters": "NK",
-        "min": 0,
+        "min": 5441,
         "max": "Infinity"
-    } ],
-    "Drawing": [ {
-        "letters": "NC",
-        "min": 1,
-        "max": 953.8
+    }, {
+        "letters": "NK",
+        "min": 0,
+        "max": 5099.99
     } ],
     "Film, Video, Animation": [ {
         "letters": "PN",
@@ -92,10 +93,15 @@
         "min": 845,
         "max": 899.5
     } ],
+    "Drawing": [ {
+        "letters": "NC",
+        "min": 1,
+        "max": 1940
+    } ],
     "Glass": [ {
         "letters": "NK",
         "min": 5100,
-        "max": 5440
+        "max": 5440.99
     },{
         "letters": "TP",
         "min": 845,
@@ -145,31 +151,29 @@
         { "letters": "PR", "min": 0, "max": "Infinity" },
         { "letters": "PS", "min": 0, "max": "Infinity" },
         { "letters": "PT", "min": 0, "max": "Infinity" },
-        { "letters": "PZ", "min": 0, "max": "Infinity" } ],
-    "Math-Science-Technology": [ {
-        "letters": "Q",
-        "min": 0,
-        "max": "Infinity",
-        "whole_class": true
-    }, {
-        "letters": "R",
-        "min": 0,
-        "max": "Infinity",
-        "whole_class": true
-    },
-    { "letters": "T", "min": 0, "max": "Infinity" },
-    { "letters": "TC", "min": 0, "max": "Infinity" },
-    { "letters": "TD", "min": 0, "max": "Infinity" },
-    { "letters": "TE", "min": 0, "max": "Infinity" },
-    { "letters": "TF", "min": 0, "max": "Infinity" },
-    { "letters": "TG", "min": 0, "max": "Infinity" },
-    { "letters": "TJ", "min": 0, "max": "Infinity" },
-    { "letters": "TK", "min": 0, "max": "Infinity" },
-    { "letters": "TL", "min": 0, "max": "Infinity" },
-    { "letters": "TN", "min": 0, "max": "Infinity" },
-    { "letters": "TP", "min": 0, "max": "Infinity" },
-    { "letters": "TR", "min": 0, "max": "Infinity" },
-    { "letters": "TS", "min": 0, "max": "Infinity" },
-    { "letters": "TT", "min": 0, "max": "Infinity" },
-    { "letters": "TX", "min": 0, "max": "Infinity" } ]
+        { "letters": "PZ", "min": 0, "max": "Infinity" }
+    ],
+    "Math-Science-Technology": [
+        { "letters": "Q", "whole_class": true },
+        { "letters": "R", "whole_class": true} ,
+        { "letters": "S", "whole_class": true },
+        { "letters": "T", "min": 0, "max": "Infinity" },
+        { "letters": "TC", "min": 0, "max": "Infinity" },
+        { "letters": "TD", "min": 0, "max": "Infinity" },
+        { "letters": "TE", "min": 0, "max": "Infinity" },
+        { "letters": "TF", "min": 0, "max": "Infinity" },
+        { "letters": "TG", "min": 0, "max": "Infinity" },
+        { "letters": "TJ", "min": 0, "max": "Infinity" },
+        { "letters": "TK", "min": 0, "max": "Infinity" },
+        { "letters": "TL", "min": 0, "max": "Infinity" },
+        { "letters": "TN", "min": 0, "max": "Infinity" },
+        { "letters": "TP", "min": 0, "max": "Infinity" },
+        { "letters": "TR", "min": 0, "max": "Infinity" },
+        { "letters": "TS", "min": 0, "max": "Infinity" },
+        { "letters": "TT", "min": 0, "max": "Infinity" },
+        { "letters": "TX", "min": 0, "max": "Infinity" },
+        { "letters": "U", "whole_class": true },
+        { "letters": "V", "min": 0, "max": "Infinity" },
+        { "letters": "VK", "min": 0, "max": "Infinity" }
+    ]
 }
