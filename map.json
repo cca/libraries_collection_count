@@ -46,9 +46,18 @@
     } ],
     "Typography, Book Arts, Libraries": [ {
         "letters": "Z",
-        "min": 246,
-        "max": 246.5
-    } ],
+        "min": 0,
+        "max": 118.4
+    }, {
+        "letters": "Z",
+        "min": 118.6,
+        "max": 245.9
+    }, {
+        "letters": "Z",
+        "min": 246.6,
+        "max": "Infinity"
+    },
+    { "letters": "ZA", "min": 0, "max": "Infinity" }],
     "Woodwork": [ {
         "letters": "TT",
         "min": 180,
