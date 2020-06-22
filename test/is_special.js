@@ -5,7 +5,6 @@ exports['catches major cases (fac files, SPT, etc.)'] = function (test) {
     test.ok( is(plc("Alumni files")) === "Alumni files" )
     test.ok( is(plc("Faculty files")) === "Faculty files" )
     test.ok( is(plc("Small Press Traffic")) === "Small Press Traffic" )
-    console.log('wattis')
     test.ok( is(plc("Wattis/CCAC Institute collection")) === "Wattis/CCAC Institute collection" )
     test.done()
 }
